@@ -466,7 +466,7 @@ img {
 
 .certificate-image {
     position: relative;
-    height: auto;
+    height: 255px;
     overflow: hidden;
 }
 
