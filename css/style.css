@@ -957,6 +957,100 @@ img {
     }
 }
 
+/* Responsive Design */
+@media (max-width: 992px) {
+    .profile-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-image {
+        margin-bottom: 30px;
+    }
+    
+    .projects-grid,
+    .certificates-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    
+    /* Timeline adjustments for tablet */
+    .timeline::before {
+        left: 40px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 0;
+        left: 0 !important; /* Override the left positioning for all items */
+    }
+    
+    .timeline-dot {
+        left: 30px !important;
+        right: auto;
+    }
+    
+    .timeline-date {
+        position: relative;
+        top: auto;
+        left: auto !important;
+        right: auto !important;
+        width: auto;
+        text-align: left !important;
+        margin-bottom: 10px;
+    }
+    
+    .timeline-content::after {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 70px 0;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero .subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        padding: 20px 0;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .nav-menu li {
+        margin: 15px 0;
+    }
+    
+    .certificates-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 576px) {
     .hero-buttons {
         flex-direction: column;
@@ -976,5 +1070,99 @@ img {
         width: 40px;
         height: 40px;
         font-size: 1.2rem;
+    }
+    
+    /* Experience section mobile improvements */
+    .timeline {
+        padding: 20px 0;
+    }
+    
+    .timeline::before {
+        left: 20px;
+    }
+    
+    .timeline-item {
+        padding-left: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .timeline-dot {
+        left: 12px !important;
+        width: 16px;
+        height: 16px;
+    }
+    
+    .experience-header {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+    
+    .company-logo {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+    
+    .experience-title h3 {
+        font-size: 1.1rem;
+    }
+    
+    .experience-title h4 {
+        font-size: 0.95rem;
+    }
+    
+    .experience-location {
+        font-size: 0.8rem;
+    }
+    
+    .experience-body p {
+        font-size: 0.9rem;
+    }
+    
+    .experience-achievements {
+        padding-left: 10px;
+    }
+    
+    .experience-achievements li {
+        font-size: 0.85rem;
+        padding-left: 12px;
+        margin-bottom: 6px;
+    }
+    
+    .experience-tags span {
+        font-size: 0.75rem;
+        padding: 3px 8px;
+    }
+}
+
+/* Add an even smaller breakpoint for very small devices */
+@media (max-width: 400px) {
+    .timeline-item {
+        padding-left: 40px;
+    }
+    
+    .timeline::before {
+        left: 15px;
+    }
+    
+    .timeline-dot {
+        left: 12px !important;
+    }
+    
+    .experience-header {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .company-logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .experience-achievements li {
+        font-size: 0.8rem;
     }
 }
