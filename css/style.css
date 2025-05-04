@@ -546,7 +546,7 @@ img {
 
 .project-image {
     position: relative;
-    height: 230px;
+    aspect-ratio: 16/9;
     overflow: hidden;
 }
 
