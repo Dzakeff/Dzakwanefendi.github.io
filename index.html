@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio Saya</title>
     <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -21,14 +21,16 @@
                 <i class="fas fa-bars"></i>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#profile" class="nav-link">Profile</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#certificates" class="nav-link">Certificates</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#profile" class="nav-link">Profil</a></li>
+                <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+                <li><a href="#projects" class="nav-link">Proyek</a></li>
+                <li><a href="#certificates" class="nav-link">Sertifikat</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
                 <li><a href="#" class="theme-toggle"><i class="fas fa-moon"></i></a></li>
+                <li><a href="#" class="language-toggle" title="Change Language"><i class="fas fa-language"></i></a></li>
             </ul>
+
         </div>
     </nav>
 
@@ -37,13 +39,13 @@
         <div class="container">
             <div class="hero-content">
                 <div class="profile-image">
-                    <img src="img/Foto-Dzakwan.jpg" alt="Profile Picture">
+                    <img src="img/Foto-Dzakwan.jpg" alt="Foto Profil">
                 </div>
                 <h1>Dzakwan Efendi</h1>
                 <p class="subtitle">Cyber Security & IT Enthusiast</p>
                 <div class="hero-buttons">
-                    <a href="/Documents/CV Muhamad Dzakwan Ar Efendi - Indonesia (Cyber).pdf" class="btn btn-primary">Download CV</a>
-                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    <a href="/Documents/CV Muhamad Dzakwan Ar Efendi - Indonesia (Cyber).pdf" class="btn btn-primary" id="cv-download-btn">Unduh CV</a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
                 </div>
             </div>
             <div class="scroll-down">
@@ -58,19 +60,19 @@
     <section id="profile" class="profile section">
         <div class="container">
             <div class="section-header">
-                <h2>About Me</h2>
+                <h2>Tentang Saya</h2>
                 <div class="underline"></div>
             </div>
             <div class="profile-content">
                 <div class="profile-image">
-                    <img src="img/DSC00209-Enhanced-NR.JPG" alt="About Me">
+                    <img src="img/DSC00209-Enhanced-NR.JPG" alt="Tentang Saya">
                 </div>
                 <div class="profile-text">
-                    <h3>Hi, I'm Muhamad Dzakwan Ar Efendi</h3>
-                    <p>I am an 18-year-old graduate of Wikrama Bogor Vocational High School in 2025, majoring in Computer Network Engineering and Telecommunications. I have completed an internship for six months at PT Maxindo Mitra Solusi as a Technical Support, where I was responsible for needs assessment, installation, troubleshooting, and network maintenance. I am passionate about building a career in cyber security and system administration.</p>
+                    <h3>Hai, Saya Muhamad Dzakwan Ar Efendi</h3>
+                    <p>Saya adalah lulusan SMK Wikrama Bogor tahun 2025 berusia 18 tahun, jurusan Teknik Komputer Jaringan dan Telekomunikasi. Saya telah menyelesaikan magang selama enam bulan di PT Maxindo Mitra Solusi sebagai Technical Support, di mana saya bertanggung jawab untuk penilaian kebutuhan, instalasi, troubleshooting, dan pemeliharaan jaringan. Saya bersemangat untuk membangun karir di bidang cyber security dan administrasi sistem.</p>
                     <div class="profile-info">
                         <div class="info-item">
-                            <h4>Location</h4>
+                            <h4>Lokasi</h4>
                             <p>Bogor, Indonesia</p>
                         </div>
                         <div class="info-item">
@@ -87,9 +89,9 @@
     <section id="experience" class="experience section bg-light">
         <div class="container">
             <div class="section-header">
-                <h2>Work Experience</h2>
+                <h2>Pengalaman Kerja</h2>
                 <div class="underline"></div>
-                <p class="section-description" style="margin-top: 20px;">My professional journey and career highlights</p>
+                <p class="section-description" style="margin-top: 20px;">Perjalanan profesional dan pencapaian karir saya</p>
             </div>
             
             <div class="timeline">
@@ -97,7 +99,7 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">
-                        <span>Apr 2025 - Present</span>
+                        <span>Apr 2025 - Sekarang</span>
                     </div>
                     <div class="timeline-content">
                         <div class="experience-card">
@@ -113,10 +115,10 @@
                             </div>
                             <div class="experience-body">
                                 <ul class="experience-achievements">
-                                    <li>Designed network topology from scratch based on the client's operational requirements.</li>
-                                    <li>Analyzed existing network devices to evaluate their effectiveness and efficiency.</li>
-                                    <li>Conducted research and recommended new network equipment (such as switches, routers, and access points) that met the client's technical specifications and budget.</li>
-                                    <li>Communicated directly with the client to ensure the proposed network solution aligned with their needs and expectations.</li>
+                                    <li>Merancang topologi jaringan dari awal berdasarkan kebutuhan operasional klien.</li>
+                                    <li>Menganalisis perangkat jaringan yang ada untuk mengevaluasi efektivitas dan efisiensinya.</li>
+                                    <li>Melakukan riset dan merekomendasikan peralatan jaringan baru (seperti switch, router, dan access point) yang memenuhi spesifikasi teknis dan anggaran klien.</li>
+                                    <li>Berkomunikasi langsung dengan klien untuk memastikan solusi jaringan yang diusulkan sesuai dengan kebutuhan dan harapan mereka.</li>
                                 </ul>
                                 <div class="experience-tags">
                                     <span>MikroTik</span>
@@ -142,18 +144,18 @@
                                 <div class="experience-title">
                                     <h3>Technical Support Staff</h3>
                                     <h4>PT Maxindo Mitra Solusi</h4>
-                                    <p class="experience-location"><i class="fas fa-map-marker-alt"></i> West Jakarta, Indonesia</p>
+                                    <p class="experience-location"><i class="fas fa-map-marker-alt"></i> Jakarta Barat, Indonesia</p>
                                 </div>
                             </div>
                             <div class="experience-body">
                                 <ul class="experience-achievements">
-                                    <li>Conducted site surveys to assess client network requirements and infrastructure conditions.</li>
-                                    <li>Installed and configured network devices such as routers, switches, and access points.</li>
-                                    <li>Performed troubleshooting on network issues, ensuring minimal downtime and service disruption.</li>
-                                    <li>Provided routine maintenance and monitoring of network systems to maintain optimal performance.</li>
-                                    <li>Documented technical issues and solutions to support knowledge sharing and future problem-solving.</li>
-                                    <li>Assisted senior engineers in planning and deploying network infrastructure based on client specifications.</li>
-                                    <li>Communicated with clients to explain technical problems and provide clear resolutions.</li>
+                                    <li>Melakukan survei lokasi untuk menilai kebutuhan jaringan klien dan kondisi infrastruktur.</li>
+                                    <li>Menginstal dan mengkonfigurasi perangkat jaringan seperti router, switch, dan access point.</li>
+                                    <li>Melakukan troubleshooting pada masalah jaringan, memastikan downtime dan gangguan layanan minimal.</li>
+                                    <li>Menyediakan pemeliharaan rutin dan pemantauan sistem jaringan untuk menjaga kinerja optimal.</li>
+                                    <li>Mendokumentasikan masalah teknis dan solusinya untuk mendukung berbagi pengetahuan dan pemecahan masalah di masa depan.</li>
+                                    <li>Membantu insinyur senior dalam merencanakan dan menerapkan infrastruktur jaringan berdasarkan spesifikasi klien.</li>
+                                    <li>Berkomunikasi dengan klien untuk menjelaskan masalah teknis dan memberikan solusi yang jelas.</li>
                                 </ul>
                                 <div class="experience-tags">
                                     <span>MikroTik</span>
@@ -171,252 +173,253 @@
         </div>
     </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>My Projects</h2>
-                    <div class="underline"></div>
-                    <p class="section-description" style="margin-top: 20px;">A showcase of my recent work, personal projects, and contributions</p>
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proyek Saya</h2>
+                <div class="underline"></div>
+                <p class="section-description" style="margin-top: 20px;">Tampilan karya terbaru, proyek pribadi, dan kontribusi saya</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Project/Kali-Linux-Linux-Backtrack-Linux-glitch-art.jpg" alt="Network Security Project">
+                        <div class="overlay">
+                            <h3>Network Security Project</h3>
+                            <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1ZGVOEE-dp3w5iwYKV4ELxDPHChgDw_DS?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Proyek</a>                                 
+                        </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Network Security Project</h3>
+                        <p>Mengimplementasikan Snort IDS, ARP Poisoning (MITM), DMZ, pembatasan pemasangan USB, penguatan kata sandi, konfigurasi IPtables, dan pemindaian Nmap untuk pengujian pertahanan jaringan.</p>
+                        <div class="project-details">
+                            <div class="project-date"><i class="fas fa-calendar"></i> 2025</div>
+                        </div>
+                        <div class="project-tags">
+                            <span>Snort</span>
+                            <span>ARP Poisoning</span>
+                            <span>DMZ</span>
+                            <span>USB Security</span>
+                            <span>Password Hardening</span>
+                            <span>IPtables</span>
+                            <span>Nmap</span>                            
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/Project/Kali-Linux-Linux-Backtrack-Linux-glitch-art.jpg" alt="Network Security Project">
-                            <div class="overlay">
-                                <h3>Network Security Project</h3>
-                                <div class="project-links">
-                                <a href="https://drive.google.com/drive/folders/1ZGVOEE-dp3w5iwYKV4ELxDPHChgDw_DS?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Project</a>                                 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <h3>Network Security Project</h3>
-                            <p>Implemented Snort IDS, ARP Poisoning (MITM), DMZ, USB mounting restrictions, password hardening, IPtables configuration, and Nmap scanning for network defense testing.</p>
-                            <div class="project-details">
-                                <div class="project-date"><i class="fas fa-calendar"></i> 2025</div>
-                            </div>
-                            <div class="project-tags">
-                                <span>Snort</span>
-                                <span>ARP Poisoning</span>
-                                <span>DMZ</span>
-                                <span>USB Security</span>
-                                <span>Password Hardening</span>
-                                <span>IPtables</span>
-                                <span>Nmap</span>                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/Project/PNETLab.jpg" alt="PNETLab Network Simulation">
-                            <div class="overlay">
-                                <h3>PNETLab Network Simulation</h3>
-                                <div class="project-links">
-                                <a href="https://drive.google.com/drive/folders/1lDGNba1q4sapSGKMcO0kvHdCVTOwNzV3?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Project</a>                                 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Project/PNETLab.jpg" alt="PNETLab Network Simulation">
+                        <div class="overlay">
                             <h3>PNETLab Network Simulation</h3>
-                            <p>Configured MikroTik and Cisco devices in PNETLab, including basic MikroTik setup and DMZ implementation to a secondary router.</p>
-                            <div class="project-details">
-                                <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
-                            </div>
-                            <div class="project-tags">
-                                <span>PNETLab</span>
-                                <span>MikroTik RouterOS</span>
-                                <span>Cisco Switch</span>
-                                <span>DMZ</span>                            
-                            </div>
+                            <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1lDGNba1q4sapSGKMcO0kvHdCVTOwNzV3?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Proyek</a>                                 
+                        </div>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/Project/MikroTik x AWS.jpg" alt="MikroTik Network Integration with AWS">
-                            <div class="overlay">
-                                <h3>MikroTik Network Integration with AWS</h3>
-                                <div class="project-links">
-                                <a href="https://drive.google.com/drive/folders/1gxcRza9nYOZacHpQH1SydgzxOI1mjrCa?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Project</a>
-                            </div>
-                            </div>
+                    <div class="project-info">
+                        <h3>PNETLab Network Simulation</h3>
+                        <p>Mengkonfigurasi perangkat MikroTik dan Cisco di PNETLab, termasuk pengaturan dasar MikroTik dan implementasi DMZ ke router sekunder.</p>
+                        <div class="project-details">
+                            <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
                         </div>
-                        <div class="project-info">
+                        <div class="project-tags">
+                            <span>PNETLab</span>
+                            <span>MikroTik RouterOS</span>
+                            <span>Cisco Switch</span>
+                            <span>DMZ</span>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Project/MikroTik x AWS.jpg" alt="MikroTik Network Integration with AWS">
+                        <div class="overlay">
                             <h3>MikroTik Network Integration with AWS</h3>
-                            <p>Configured a MikroTik router to integrate with AWS by assigning static DNS for AWS server IPs, and setting up hotspot, DHCP, and VLAN.</p>
-                            <div class="project-details">
-                                <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
-                            </div>
-                            <div class="project-tags">
-                                <span>MikroTik RouterOS</span>
-                                <span>DNS Static</span>
-                                <span>Hotspot</span>
-                                <span>DHCP Server</span>
-                                <span>VLAN</span>
-                                <span>AWS EC2</span>
-                                <span>AWS RDS</span>
-                                <span>GitHub</span>
-                            </div>
+                            <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1gxcRza9nYOZacHpQH1SydgzxOI1mjrCa?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Proyek</a>
+                        </div>
                         </div>
                     </div>
-                    
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/Project/MikroTik.jpg" alt="Office Network Setup with MikroTik">
-                            <div class="overlay">
-                                <h3>Office Network Setup with MikroTik</h3>
-                                <div class="project-links">
-                                <a href="https://drive.google.com/drive/folders/1OML7ZL4JN6Q-b7EU7VwQPfsddECIC6j6?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Project</a>                                 
-                            </div>
-                            </div>
+                    <div class="project-info">
+                        <h3>MikroTik Network Integration with AWS</h3>
+                        <p>Mengkonfigurasi router MikroTik untuk terintegrasi dengan AWS dengan menetapkan DNS statis untuk IP server AWS, dan mengatur hotspot, DHCP, dan VLAN.</p>
+                        <div class="project-details">
+                            <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
                         </div>
-                        <div class="project-info">
+                        <div class="project-tags">
+                            <span>MikroTik RouterOS</span>
+                            <span>DNS Static</span>
+                            <span>Hotspot</span>
+                            <span>DHCP Server</span>
+                            <span>VLAN</span>
+                            <span>AWS EC2</span>
+                            <span>AWS RDS</span>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Project/MikroTik.jpg" alt="Office Network Setup with MikroTik">
+                        <div class="overlay">
                             <h3>Office Network Setup with MikroTik</h3>
-                            <p>Set up a small office network using two MikroTik routers with static routing, load balancing, OSPF, queue management, firewall, and hotspot.</p>
-                            <div class="project-details">
-                                <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
-                            </div>
-                            <div class="project-tags">
-                                <span>MikroTik RouterOS</span>
-                                <span>Static Routing</span>
-                                <span>Load Balancing</span>
-                                <span>OSPF</span>
-                                <span>Simple Queue</span>
-                                <span>Firewall Filter</span>
-                                <span>Hotspot</span>
-                            </div>
+                            <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1OML7ZL4JN6Q-b7EU7VwQPfsddECIC6j6?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Proyek</a>                                 
+                        </div>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/Project/FTTh.jpg" alt="FTTH Project with MikroTik">
-                            <div class="overlay">
-                                <h3>FTTH Project with MikroTik</h3>
-                                <div class="project-links">
-                                <a href="https://drive.google.com/drive/folders/1QLRj68JzA0Pj-EMAeEEAUiiX1Pw--TX3?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Project</a>                                 
-                            </div>
-                            </div>
+                    <div class="project-info">
+                        <h3>Office Network Setup with MikroTik</h3>
+                        <p>Menyiapkan jaringan kantor kecil menggunakan dua router MikroTik dengan static routing, load balancing, OSPF, manajemen antrian, firewall, dan hotspot.</p>
+                        <div class="project-details">
+                            <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
                         </div>
-                        <div class="project-info">
+                        <div class="project-tags">
+                            <span>MikroTik RouterOS</span>
+                            <span>Static Routing</span>
+                            <span>Load Balancing</span>
+                            <span>OSPF</span>
+                            <span>Simple Queue</span>
+                            <span>Firewall Filter</span>
+                            <span>Hotspot</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Project/FTTh.jpg" alt="FTTH Project with MikroTik">
+                        <div class="overlay">
                             <h3>FTTH Project with MikroTik</h3>
-                            <p>Implemented PPPoE and hotspot on MikroTik routers, and performed FO cable installation with OLT and ONT configuration.</p>
-                            <div class="project-details">
-                                <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
-                            </div>
-                            <div class="project-tags">
-                                <span>Fiber Optic</span>
-                                <span>PPPoE</span>
-                                <span>Hotspot</span>
-                                <span>MikroTik RouterOS</span>
-                                <span>OLT</span>
-                                <span>ONT</span>                            
-                            </div>
+                            <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1QLRj68JzA0Pj-EMAeEEAUiiX1Pw--TX3?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Proyek</a>                                 
+                        </div>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/Project/AWS.png" alt="AWS Infrastructure Project">
-                            <div class="overlay">
-                                <h3>AWS Infrastructure Project</h3>
-                                <div class="project-links">
-                                <a href="https://drive.google.com/drive/folders/17lm7IZd5Srf-PffD_JDmxCKAoTSqWrYv?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Project</a>                                 
-                            </div>
-                            </div>
+                    <div class="project-info">
+                        <h3>FTTH Project with MikroTik</h3>
+                        <p>Mengimplementasikan PPPoE dan hotspot pada router MikroTik, dan melakukan instalasi kabel FO dengan konfigurasi OLT dan ONT.</p>
+                        <div class="project-details">
+                            <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
                         </div>
-                        <div class="project-info">
+                        <div class="project-tags">
+                            <span>Fiber Optic</span>
+                            <span>PPPoE</span>
+                            <span>Hotspot</span>
+                            <span>MikroTik RouterOS</span>
+                            <span>OLT</span>
+                            <span>ONT</span>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Project/AWS.png" alt="AWS Infrastructure Project">
+                        <div class="overlay">
                             <h3>AWS Infrastructure Project</h3>
-                            <p>Built scalable infrastructure using ELB, Auto Scaling, RDS, Zabbix and Nagios for monitoring, and configured VPC and EC2 instances.</p>
-                            <div class="project-details">
-                                <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
-                            </div>
-                            <div class="project-tags">
-                                <span>AWS EC2</span>
-                                <span>ELB</span>
-                                <span>Auto Scaling</span>
-                                <span>AWS RDS</span>
-                                <span>Zabbix</span>
-                                <span>Nagios</span>
-                                <span>VPC</span>                            
-                            </div>
+                            <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/17lm7IZd5Srf-PffD_JDmxCKAoTSqWrYv?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Proyek</a>                                 
+                        </div>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/Project/debian-seeklogo.png" alt="Linux Server Project">
-                            <div class="overlay">
-                                <h3>Linux Server Project</h3>
-                                <div class="project-links">
-                                <a href="https://drive.google.com/drive/folders/1trB_7el_pHqwRxQxMZB-Gc1dmx6HhHwz?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Project</a>                                 
-                            </div>
-                            </div>
+                    <div class="project-info">
+                        <h3>AWS Infrastructure Project</h3>
+                        <p>Membangun infrastruktur yang dapat diskalakan menggunakan ELB, Auto Scaling, RDS, Zabbix dan Nagios untuk pemantauan, dan mengkonfigurasi VPC dan instans EC2.</p>
+                        <div class="project-details">
+                            <div class="project-date"><i class="fas fa-calendar"></i> 2024</div>
                         </div>
-                        <div class="project-info">
+                        <div class="project-tags">
+                            <span>AWS EC2</span>
+                            <span>ELB</span>
+                            <span>Auto Scaling</span>
+                            <span>AWS RDS</span>
+                            <span>Zabbix</span>
+                            <span>Nagios</span>
+                            <span>VPC</span>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Project/debian-seeklogo.png" alt="Linux Server Project">
+                        <div class="overlay">
                             <h3>Linux Server Project</h3>
-                            <p>Deployed a Linux server with LEMP stack, WordPress, SSH key authentication, mail server with webmail, virtual hosts, VoIP service, and additional services including Apache2, Nginx, HTTPS, Samba, IPtables NAT gateway, FTP, DNS, and DHCP.</p>
-                            <div class="project-details">
-                                <div class="project-date"><i class="fas fa-calendar"></i> 2023</div>
-                            </div>
-                            <div class="project-tags">
-                                <span>LEMP</span>
-                                <span>WordPress</span>
-                                <span>SSH Key</span>
-                                <span>Mail Server</span>
-                                <span>Virtual Host</span>
-                                <span>Asterisk</span>
-                                <span>Apache2</span>
-                                <span>Nginx</span>
-                                <span>SSL/TLS</span>
-                                <span>Samba</span>
-                                <span>IPtables NAT</span>
-                                <span>FTP</span>
-                                <span>DNS</span>
-                                <span>DHCP</span>                                
-                            </div>
+                            <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1trB_7el_pHqwRxQxMZB-Gc1dmx6HhHwz?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Proyek</a>                                 
+                        </div>
                         </div>
                     </div>
+                    <div class="project-info">
+                        <h3>Linux Server Project</h3>
+                        <p>Menerapkan server Linux dengan LEMP stack, WordPress, autentikasi kunci SSH, mail server dengan webmail, virtual host, layanan VoIP, dan layanan tambahan termasuk Apache2, Nginx, HTTPS, Samba, gateway NAT IPtables, FTP, DNS, dan DHCP.</p>
+                        <div class="project-details">
+                            <div class="project-date"><i class="fas fa-calendar"></i> 2023</div>
+                        </div>
+                        <div class="project-tags">
+                            <span>LEMP</span>
+                            <span>WordPress</span>
+                            <span>SSH Key</span>
+                            <span>Mail Server</span>
+                            <span>Virtual Host</span>
+                            <span>Asterisk</span>
+                            <span>Apache2</span>
+                            <span>Nginx</span>
+                            <span>SSL/TLS</span>
+                            <span>Samba</span>
+                            <span>IPtables NAT</span>
+                            <span>FTP</span>
+                            <span>DNS</span>
+                            <span>DHCP</span>                                
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/Project/Cisco Packet Tracer.jpg" alt="Cisco Packet Tracer Lab">
-                            <div class="overlay">
-                                <h3>Cisco Packet Tracer Lab</h3>
-                                <div class="project-links">
-                                <a href="https://drive.google.com/drive/folders/1A14HJuuDmrNoT27tAPSbN8Yz39Ga8AKd?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Project</a>                                 
-                            </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Project/Cisco Packet Tracer.jpg" alt="Cisco Packet Tracer Lab">
+                        <div class="overlay">
                             <h3>Cisco Packet Tracer Lab</h3>
-                            <p>Simulated a network in Cisco Packet Tracer with configuration of routing between two routers, VLAN, DHCP server on router, DNS server, and a web server.</p>
-                            <div class="project-details">
-                                <div class="project-date"><i class="fas fa-calendar"></i> 2022</div>
-                            </div>
-                            <div class="project-tags">
-                                <span>Cisco Packet Tracer</span>
-                                <span>Routing</span>
-                                <span>VLAN</span>
-                                <span>DHCP Server</span>
-                                <span>DNS Server</span>
-                                <span>Web Server</span>
-                             </div>
+                            <div class="project-links">
+                            <a href="https://drive.google.com/drive/folders/1A14HJuuDmrNoT27tAPSbN8Yz39Ga8AKd?usp=drive_link" target="_blank" class="btn btn-sm"><i class="fas fa-external-link-alt"></i> Proyek</a>                                 
                         </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cisco Packet Tracer Lab</h3>
+                        <p>Mensimulasikan jaringan di Cisco Packet Tracer dengan konfigurasi routing antara dua router, VLAN, server DHCP pada router, server DNS, dan server web.</p>
+                        <div class="project-details">
+                            <div class="project-date"><i class="fas fa-calendar"></i> 2022</div>
+                        </div>
+                        <div class="project-tags">
+                            <span>Cisco Packet Tracer</span>
+                            <span>Routing</span>
+                            <span>VLAN</span>
+                            <span>DHCP Server</span>
+                            <span>DNS Server</span>
+                            <span>Web Server</span>
+                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
     <!-- Certificates Section -->
     <section id="certificates" class="certificates section bg-light">
         <div class="container">
             <div class="section-header">
-                <h2>Certificates</h2>
+                <h2>Sertifikat</h2>
                 <div class="underline"></div>
-                <p class="section-description" style="margin-top: 20px;">Professional certifications and achievements I've earned throughout my career</p>
+                <p class="section-description" style="margin-top: 20px;">Sertifikasi profesional dan pencapaian yang telah saya peroleh sepanjang karir saya</p>
             </div>
             
             <div class="certificates-grid">
@@ -434,7 +437,7 @@
                             <p><i class="fas fa-calendar"></i> 2025 - 2028</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Certified in basic MikroTik network configuration, including routing, wireless, firewall, and network troubleshooting.</p>
+                            <p>Tersertifikasi dalam konfigurasi jaringan MikroTik dasar, termasuk routing, wireless, firewall, dan troubleshooting jaringan.</p>
                             <div class="certificate-skills">
                                 <span>Cisco Packet Tracer</span>
                             </div>
@@ -456,7 +459,7 @@
                             <p><i class="fas fa-calendar"></i> 2025</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Knowledge of networking fundamentals, how devices communicate, cabling, network addressing and services, troubleshooting and support of endpoints, networks, and users including diagnostics and documentation as a member of a help desk team, and basic wireless. </p>
+                            <p>Pengetahuan tentang dasar-dasar jaringan, bagaimana perangkat berkomunikasi, pengkabelan, pengalamatan jaringan dan layanan, troubleshooting dan dukungan endpoint, jaringan, dan pengguna termasuk diagnostik dan dokumentasi sebagai anggota tim help desk, dan wireless dasar.</p>
                             <div class="certificate-skills">
                                 <span>Cisco Packet Tracer</span>
                             </div>
@@ -478,7 +481,7 @@
                             <p><i class="fas fa-calendar"></i> 2025</p>
                         </div>
                         <div class="certificate-description">
-                            <p>understanding of network monitoring and protection techniques, including the use of firewalls, cloud security, and cryptography, as well as familiarity with handling security alerts and implementing security governance.</p>
+                            <p>Pemahaman tentang teknik pemantauan dan perlindungan jaringan, termasuk penggunaan firewall, keamanan cloud, dan kriptografi, serta keakraban dengan penanganan peringatan keamanan dan implementasi tata kelola keamanan.</p>
                             <div class="certificate-skills">
                             </div>
                         </div>
@@ -499,7 +502,7 @@
                             <p><i class="fas fa-calendar"></i> 2025</p>
                         </div>
                         <div class="certificate-description">
-                            <p>understanding Linux configurations, including use of DNS and DHCP server, MariaDB</p>
+                            <p>Pemahaman konfigurasi Linux, termasuk penggunaan server DNS dan DHCP, MariaDB</p>
                             <div class="certificate-skills">
                             </div>
                         </div>
@@ -520,7 +523,7 @@
                             <p><i class="fas fa-calendar"></i> 2025</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Foundational understanding of Networking such as IPV4, TCP/IP, and OSI Model.</p>
+                            <p>Pemahaman dasar tentang Jaringan seperti IPV4, TCP/IP, dan Model OSI.</p>
                             <div class="certificate-skills">
                             </div>
                         </div>
@@ -541,7 +544,7 @@
                             <p><i class="fas fa-calendar"></i> 2025</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Certified in foundational networking concepts, including IP addressing, network protocols, and basic router/switch configuration.</p>
+                            <p>Tersertifikasi dalam konsep jaringan dasar, termasuk pengalamatan IP, protokol jaringan, dan konfigurasi router/switch dasar.</p>
                             <div class="certificate-skills">
                             </div>
                         </div>
@@ -562,7 +565,7 @@
                             <p><i class="fas fa-calendar"></i> 2025</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Trained in network simulation using PNETLab, focusing on network design, configuration, and troubleshooting in a virtual environment</p>
+                            <p>Terlatih dalam simulasi jaringan menggunakan PNETLab, berfokus pada desain jaringan, konfigurasi, dan troubleshooting dalam lingkungan virtual</p>
                             <div class="certificate-skills">
                             </div>
                         </div>
@@ -583,7 +586,7 @@
                             <p><i class="fas fa-calendar"></i> 2024</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Studied in ethical hacking, application and network exploitation, IoT security, penetration testing, and vulnerability assessment and scanning.</p>
+                            <p>Mempelajari ethical hacking, eksploitasi aplikasi dan jaringan, keamanan IoT, penetration testing, dan penilaian kerentanan dan pemindaian.</p>
                             <div class="certificate-skills">
                                 <span>Nmap</span>
                                 <span>DNS Spoofing</span>
@@ -601,13 +604,13 @@
                         </div>
                     </div>
                     <div class="certificate-info">
-                        <h3>Facing Quantum Technology</h3>
+                        <h3>Menghadapi Teknologi Kuantum</h3>
                         <div class="certificate-meta">
                             <p><i class="fas fa-award"></i> BSSN x CIS-IEEE</p>
                             <p><i class="fas fa-calendar"></i> 2024</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Studied the opportunities and challenges of AI, quantum computing, and cryptography.</p>
+                            <p>Mempelajari peluang dan tantangan AI, komputasi kuantum, dan kriptografi.</p>
                             <div class="certificate-skills">
                                 <span>Quantum Computing</span>
                                 <span>ThorLite</span>
@@ -630,7 +633,7 @@
                             <p><i class="fas fa-calendar"></i> 2024</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Familiarized with various types of viruses and malicious applications, including their forms and attack methods.</p>
+                            <p>Mengenal berbagai jenis virus dan aplikasi berbahaya, termasuk bentuk dan metode serangannya.</p>
                             <div class="certificate-skills">
                                 <span>Trojan</span>
                                 <span>Worm</span>
@@ -655,7 +658,7 @@
                             <p><i class="fas fa-calendar"></i> 2024</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Participated in the MikroTik Network Olympiad, demonstrating skills in network configuration using MikroTik RouterOS.</p>
+                            <p>Berpartisipasi dalam Olimpiade Jaringan MikroTik, mendemonstrasikan keterampilan dalam konfigurasi jaringan menggunakan MikroTik RouterOS.</p>
                             <div class="certificate-skills">
                             </div>
                         </div>
@@ -676,7 +679,7 @@
                             <p><i class="fas fa-calendar"></i> 2024</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Completed a basic Cisco course, covering networking fundamentals, IP addressing, and introductory router/switch.</p>
+                            <p>Menyelesaikan kursus dasar Cisco, mencakup dasar-dasar jaringan, pengalamatan IP, dan router/switch pengantar.</p>
                             <div class="certificate-skills">
                             </div>
                         </div>
@@ -697,7 +700,7 @@
                             <p><i class="fas fa-calendar"></i> 2022</p>
                         </div>
                         <div class="certificate-description">
-                            <p>Completed a basic Cisco course, covering networking fundamentals, IP addressing, and introductory router/switch.</p>
+                            <p>Menyelesaikan kursus dasar Cisco, mencakup dasar-dasar jaringan, pengalamatan IP, dan router/switch pengantar.</p>
                             <div class="certificate-skills">
                             </div>
                         </div>
@@ -708,15 +711,15 @@
     </section>
     
     <!-- Contact Section -->
-    <section id="contact" class="contact section bg-light">
+    <section id="contact" class="contact section">
         <div class="container">
             <div class="section-header">
-                <h2>Get In Touch</h2>
+                <h2>Hubungi Saya</h2>
                 <div class="underline"></div>
             </div>
             <div class="contact-content">
-                <p>Have a project in mind or want to collaborate? Feel free to reach out!</p>
-                <a href="mailto:dzakwanarefendi@gmail.com" class="btn btn-primary">Contact Me</a>
+                <p>Punya proyek dalam pikiran atau ingin berkolaborasi? Jangan ragu untuk menghubungi!</p>
+                <a href="mailto:dzakwanarefendi@gmail.com" class="btn btn-primary">Hubungi Saya</a>
                 
                 <div class="social-icons">
                     <a href="https://github.com/Dzakeff" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
@@ -736,6 +739,6 @@
 
     <!-- Scripts -->
     <script src="js/main.js"></script>
-    <!-- <script src="js/file-upload.js"></script> -->
+    <script src="js/language.js"></script>
 </body>
 </html>
