@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Language data
     const languages = {
         en: {
+            siteTitle: "My Portfolio",
+            logo: 'Portfolio',
             nav: ['Home', 'Profile', 'Experience', 'Projects', 'Certificates', 'Contact'],
             hero: {
                 downloadCV: 'Download CV',
@@ -83,6 +85,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         id: {
+            siteTitle: "Portofolio Saya",
+            logo: 'Portofolio',
             nav: ['Beranda', 'Profil', 'Pengalaman', 'Proyek', 'Sertifikat', 'Kontak'],
             hero: {
                 downloadCV: 'Unduh CV',
@@ -185,6 +189,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Function to set language
     function setLanguage(lang) {
+         // Update website title
+        document.getElementById('website-title').textContent = languages[lang].siteTitle;
+    
+        // Update navigation logo
+        document.getElementById('nav-logo').textContent = languages[lang].logo;
+
         // Update language toggle icon/text
         languageToggle.innerHTML = lang === 'en' ? '<i class="fas fa-language"></i> ID' : '<i class="fas fa-language"></i> EN';
         
