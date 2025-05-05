@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
             logo: 'Portfolio',
             nav: ['Home', 'Profile', 'Experience', 'Projects', 'Certificates', 'Contact'],
             hero: {
-                downloadCV: 'Download CV',
+                downloadCV: 'My CV',
                 contactMe: 'Contact Me',
                 cvPath: '/Documents/CV Muhamad Dzakwan Ar Efendi - English (Cyber).pdf'  // English CV path
             },
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
             logo: 'Portofolio',
             nav: ['Beranda', 'Profil', 'Pengalaman', 'Proyek', 'Sertifikat', 'Kontak'],
             hero: {
-                downloadCV: 'Unduh CV',
+                downloadCV: 'CV Saya',
                 contactMe: 'Hubungi Saya',
                 cvPath: '/Documents/CV Muhamad Dzakwan Ar Efendi - Indonesia (Cyber).pdf'  // Indonesian CV path
             },
