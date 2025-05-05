@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: 'A showcase of my recent work, personal projects, and contributions',
                 project: 'Project',
                 descriptions: [
+                    'Designed a network topology from scratch, evaluated existing devices, recommended new equipment, and coordinated directly with the client to ensure the solution met their needs.',
                     'Implemented Snort IDS, ARP Poisoning (MITM), DMZ, USB mounting restrictions, password hardening, IPtables configuration, and Nmap scanning for network defense testing.',
                     'Configured MikroTik and Cisco devices in PNETLab, including basic MikroTik setup and DMZ implementation to a secondary router.',
                     'Configured a MikroTik router to integrate with AWS by assigning static DNS for AWS server IPs, and setting up hotspot, DHCP, and VLAN.',
@@ -67,12 +68,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     'Foundational understanding of Networking such as IPV4, TCP/IP, and OSI Model.',
                     'Certified in foundational networking concepts, including IP addressing, network protocols, and basic router/switch configuration.',
                     'Trained in network simulation using PNETLab, focusing on network design, configuration, and troubleshooting in a virtual environment',
-                    'Mempelajari ethical hacking, eksploitasi aplikasi dan jaringan, keamanan IoT, penetration testing, dan penilaian kerentanan dan pemindaian.',
-                    'Mempelajari peluang dan tantangan AI, komputasi kuantum, dan kriptografi.',
-                    'Mengenal berbagai jenis virus dan aplikasi berbahaya, termasuk bentuk dan metode serangannya.',
-                    'Berpartisipasi dalam Olimpiade Jaringan MikroTik, mendemonstrasikan keterampilan dalam konfigurasi jaringan menggunakan MikroTik RouterOS.',
-                    'Menyelesaikan kursus dasar Cisco, mencakup dasar-dasar jaringan, pengalamatan IP, dan router/switch pengantar.',
-                    'Menyelesaikan kursus dasar Cisco, mencakup dasar-dasar jaringan, pengalamatan IP, dan router/switch pengantar.'
+                    'Studied ethical hacking, application and network exploitation, IoT security, penetration testing, and vulnerability assessment and scanning.',
+                    'Learned about the opportunities and challenges of AI, quantum computing, and cryptography.',
+                    'Gained knowledge of various types of viruses and malicious applications, including their forms and attack methods.',
+                    'Participated in the MikroTik Network Olympiad, demonstrating skills in network configuration using MikroTik RouterOS.',
+                    'Completed a basic Cisco course covering networking fundamentals, IP addressing, and introductory routing/switching.',
+                    'Completed a basic Cisco course covering networking fundamentals, IP addressing, and introductory routing/switching.'
                 ]
             },
             contact: {
@@ -82,7 +83,16 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             footer: {
                 rights: 'All rights reserved.'
+            },
+
+            comingSoon: {
+                title: 'Coming Soon',
+                description: 'New exciting features and content are on the way!',
+                heading: 'We\'re working on something awesome!',
+                text: 'This section is currently under development. Check back soon for updates.',
+                features: ['New Projects', 'More Certificates', 'Blog Posts']
             }
+
         },
         id: {
             siteTitle: "Portofolio Saya",
@@ -129,6 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: 'Tampilan karya terbaru, proyek pribadi, dan kontribusi saya',
                 project: 'Proyek',
                 descriptions: [
+                    'Merancang topologi jaringan dari awal, mengevaluasi perangkat yang ada, merekomendasikan perangkat baru, dan berkoordinasi langsung dengan klien untuk memastikan solusi sesuai kebutuhan.',
                     'Mengimplementasikan Snort IDS, ARP Poisoning (MITM), DMZ, pembatasan pemasangan USB, penguatan kata sandi, konfigurasi IPtables, dan pemindaian Nmap untuk pengujian pertahanan jaringan.',
                     'Mengkonfigurasi perangkat MikroTik dan Cisco di PNETLab, termasuk pengaturan dasar MikroTik dan implementasi DMZ ke router sekunder.',
                     'Mengkonfigurasi router MikroTik untuk terintegrasi dengan AWS dengan menetapkan DNS statis untuk IP server AWS, dan mengatur hotspot, DHCP, dan VLAN.',
@@ -165,6 +176,14 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             footer: {
                 rights: 'Hak Cipta Dilindungi.'
+            },
+
+            comingSoon: {
+                title: 'Segera Hadir',
+                description: 'Fitur dan konten menarik baru sedang dalam perjalanan!',
+                heading: 'Kami sedang mengerjakan sesuatu yang keren!',
+                text: 'Bagian ini sedang dalam pengembangan. Periksa kembali nanti untuk pembaruan.',
+                features: ['Proyek Baru', 'Lebih Banyak Sertifikat', 'Artikel Blog']
             }
         }
     };
