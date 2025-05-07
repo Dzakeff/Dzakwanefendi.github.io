@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const languages = {
         en: {
             siteTitle: "My Portfolio",
-            logo: 'Portfolio',
             nav: ['Home', 'Profile', 'Experience', 'Projects', 'Certificates', 'Contact'],
             hero: {
                 downloadCV: 'My CV',
@@ -96,7 +95,6 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         id: {
             siteTitle: "Portofolio Saya",
-            logo: 'Portofolio',
             nav: ['Beranda', 'Profil', 'Pengalaman', 'Proyek', 'Sertifikat', 'Kontak'],
             hero: {
                 downloadCV: 'CV Saya',

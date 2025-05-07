@@ -657,7 +657,7 @@ img {
 
 .project-image {
     position: relative;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/10;
     overflow: hidden;
 }
 
@@ -703,6 +703,10 @@ img {
     gap: 10px;
 }
 
+.project-date {
+    margin-bottom: 15px;
+}
+
 .project-info {
     padding: 20px;
 }
@@ -716,6 +720,7 @@ img {
 .project-info p {
     color: var(--light-text-color);
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .project-tags {
@@ -753,7 +758,7 @@ img {
 
 .certificate-image {
     position: relative;
-    height: 255px;
+    aspect-ratio: 16/10;
     overflow: hidden;
 }
 
@@ -812,6 +817,24 @@ img {
     margin-right: 5px;
 }
 
+.certificate-description p {
+    text-align: justify;
+}
+
+.certificate-skills {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.certificate-skills span {
+    background-color: var(--light-bg-color);
+    color: var(--light-text-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
 
 /* Contact Section */
 .contact-content {
