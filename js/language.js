@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             profile: {
                 title: 'About Me',
                 greeting: 'Hi, I\'m Muhamad Dzakwan Ar Efendi',
-                description: 'I am an 18-year-old graduate of Wikrama Bogor Vocational High School in 2025, majoring in Computer Network Engineering and Telecommunications. I have completed an internship for six months at PT Maxindo Mitra Solusi as a Technical Support, where I was responsible for needs assessment, installation, troubleshooting, and network maintenance. I am passionate about building a career in cyber security and system administration.',
+                description: 'I am an 18-year-old fresh graduate from Wikrama Bogor Vocational High School in 2025, majoring in Computer Network Engineering and Telecommunications. I have completed an internship for six months at PT Maxindo Mitra Solusi as a Technical Support, where I was responsible for needs assessment, installation, troubleshooting, and network maintenance. I am passionate about building a career in cyber security and system administration.',
                 location: 'Location',
                 email: 'Email'
             },
