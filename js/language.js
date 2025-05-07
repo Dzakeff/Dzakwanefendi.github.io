@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 present: 'Present',
                 achievements: [
                     // IT Infrastructure Consultant
-                    [
-                        'Designed network topology from scratch based on the client\'s operational requirements.',
-                        'Analyzed existing network devices to evaluate their effectiveness and efficiency.',
-                        'Conducted research and recommended new network equipment (such as switches, routers, and access points) that met the client\'s technical specifications and budget.',
-                        'Communicated directly with the client to ensure the proposed network solution aligned with their needs and expectations.'
-                    ],
+                    // [
+                    //     'Designed network topology from scratch based on the client\'s operational requirements.',
+                    //     'Analyzed existing network devices to evaluate their effectiveness and efficiency.',
+                    //     'Conducted research and recommended new network equipment (such as switches, routers, and access points) that met the client\'s technical specifications and budget.',
+                    //     'Communicated directly with the client to ensure the proposed network solution aligned with their needs and expectations.'
+                    // ],
                     // Technical Support Staff
                     [
                         'Conducted site surveys to assess client network requirements and infrastructure conditions.',
@@ -114,12 +114,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 present: 'Sekarang',
                 achievements: [
                     // IT Infrastructure Consultant
-                    [
-                        'Merancang topologi jaringan dari awal berdasarkan kebutuhan operasional klien.',
-                        'Menganalisis perangkat jaringan yang ada untuk mengevaluasi efektivitas dan efisiensinya.',
-                        'Melakukan riset dan merekomendasikan peralatan jaringan baru (seperti switch, router, dan access point) yang memenuhi spesifikasi teknis dan anggaran klien.',
-                        'Berkomunikasi langsung dengan klien untuk memastikan solusi jaringan yang diusulkan sesuai dengan kebutuhan dan harapan mereka.'
-                    ],
+                    // [
+                    //     'Merancang topologi jaringan dari awal berdasarkan kebutuhan operasional klien.',
+                    //     'Menganalisis perangkat jaringan yang ada untuk mengevaluasi efektivitas dan efisiensinya.',
+                    //     'Melakukan riset dan merekomendasikan peralatan jaringan baru (seperti switch, router, dan access point) yang memenuhi spesifikasi teknis dan anggaran klien.',
+                    //     'Berkomunikasi langsung dengan klien untuk memastikan solusi jaringan yang diusulkan sesuai dengan kebutuhan dan harapan mereka.'
+                    // ],
                     // Technical Support Staff
                     [
                         'Melakukan survei lokasi untuk menilai kebutuhan jaringan klien dan kondisi infrastruktur.',
