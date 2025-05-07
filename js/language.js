@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: 'Professional certifications and achievements I\'ve earned throughout my career',
                 descriptions: [
                     'Certified in basic MikroTik network configuration, including routing, wireless, firewall, and network troubleshooting.',
-                    'Knowledge of networking fundamentals, how devices communicate, cabling, network addressing and services, troubleshooting and support of endpoints, networks, and users including diagnostics and documentation as a member of a help desk team, and basic wireless.',
+                    'Knowledge of networking fundamentals, how devices communicate, cabling, network addressing and services, troubleshooting and support of endpoints.',
                     'understanding of network monitoring and protection techniques, including the use of firewalls, cloud security, and cryptography, as well as familiarity with handling security alerts and implementing security governance.',
                     'understanding Linux configurations, including use of DNS and DHCP server, MariaDB',
                     'Foundational understanding of Networking such as IPV4, TCP/IP, and OSI Model.',
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 description: 'Sertifikasi profesional dan pencapaian yang telah saya peroleh sepanjang karir saya',
                 descriptions: [
                     'Tersertifikasi dalam konfigurasi jaringan MikroTik dasar, termasuk routing, wireless, firewall, dan troubleshooting jaringan.',
-                    'Pengetahuan tentang dasar-dasar jaringan, bagaimana perangkat berkomunikasi, pengkabelan, pengalamatan jaringan dan layanan, troubleshooting dan dukungan endpoint, jaringan, dan pengguna termasuk diagnostik dan dokumentasi sebagai anggota tim help desk, dan wireless dasar.',
+                    'Pengetahuan tentang dasar-dasar jaringan, bagaimana perangkat berkomunikasi, pengkabelan, pengalamatan jaringan dan layanan, troubleshooting dan dukungan endpoint.',
                     'Pemahaman tentang teknik pemantauan dan perlindungan jaringan, termasuk penggunaan firewall, keamanan cloud, dan kriptografi, serta keakraban dengan penanganan peringatan keamanan dan implementasi tata kelola keamanan.',
                     'Pemahaman konfigurasi Linux, termasuk penggunaan server DNS dan DHCP, MariaDB',
                     'Pemahaman dasar tentang Jaringan seperti IPV4, TCP/IP, dan Model OSI.',
